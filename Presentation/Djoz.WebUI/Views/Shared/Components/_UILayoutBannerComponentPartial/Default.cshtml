@@ -1,0 +1,24 @@
+﻿@model List<ResultBannerListQueryResponse>
+
+@foreach (var item in Model)
+{
+	<section class="hero spad set-bg" data-setbg="@Url.Content("/Djoz/img/hero-bg.png")">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="hero__text">
+						<span>@item.SubTitle</span>
+						<h1>@item.Title</h1>
+						<p>
+							@item.Description
+						</p>
+						<a href="https://www.youtube.com/watch?v=K4DyBUG242c" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="linear__icon">
+			<i class="fa fa-angle-double-down"></i>
+		</div>
+	</section>
+}

@@ -1,0 +1,42 @@
+﻿@model GetContactQueryResponse
+@{
+    ViewData["Title"] = "GetContact";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="card">
+			<div class="card-header">
+				<div class="card-title d-flex justify-content-center">Yeni İletişim Ekle</div>
+			</div>
+			<form asp-action="UpdateContact" method="post">
+				<div class="card-body">
+					<div class="row justify-content-center">
+						<div class="col-md-12 col-lg-8">
+
+							<input type="hidden" asp-for="ContactId" />
+
+							<div class="form-group">
+								<label>Telefon</label>
+								<input type="text" class="form-control" asp-for="Phone" />
+								<span asp-validation-for="Phone" class="text-danger"></span>
+							</div>
+							<div class="form-group form-inline">
+								<label class="col-md-3 col-form-label">E-Posta</label>
+								<div class="col-md-9 p-0">
+									<input type="text" class="form-control input-full" asp-for="Email" />
+									<span asp-validation-for="Email" class="text-danger"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-action d-flex justify-content-center">
+					<button type="submit" class="btn btn-success">Kaydet</button>
+					<a href="/Admin/AdminContact/Index" class="btn btn-danger">Vazgeç</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

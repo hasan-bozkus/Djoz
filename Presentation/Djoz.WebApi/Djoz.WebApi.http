@@ -1,0 +1,6 @@
+@Djoz.WebApi_HostAddress = http://localhost:44391
+
+GET {{Djoz.WebApi_HostAddress}}/songs/createsongs?sognName=test%20song&singer=test%20singer&songFile=test
+Accept: application/json
+
+###
