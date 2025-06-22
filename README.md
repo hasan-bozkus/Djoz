@@ -35,4 +35,4 @@ Djoz, .Net Core 9.0, EntityFramework ve JWT kullanılarak geliştirildi, Onion a
 ![12](https://github.com/hasan-bozkus/Djoz/blob/master/Presentation/Djoz.WebUI/wwwroot/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-22%20145144.png)
 ![13](https://github.com/hasan-bozkus/Djoz/blob/master/Presentation/Djoz.WebUI/wwwroot/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-22%20150147%20-%20Kopya.png)
 ![14](https://github.com/hasan-bozkus/Djoz/blob/master/Presentation/Djoz.WebUI/wwwroot/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-22%20205302.png)
-![15](https://github.com/hasan-bozkus/Djoz/blob/master/Presentation/Djoz.WebUI/wwwroot/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-22%20150214.png)]
+![15](https://github.com/hasan-bozkus/Djoz/blob/master/Presentation/Djoz.WebUI/wwwroot/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-06-22%20150214.png)
