@@ -8,16 +8,27 @@ Djoz, .Net Core 9.0, EntityFramework ve JWT kullanılarak geliştirildi, Onion a
 
 # 🔧 Teknik Yapı ve Mimarisi 
 💎.Net Core 9.0 Web Api (Senaryo gereği devre dışı bıraklıdı ancak proje içinde halen bulunmakta)
+
 💎.Net Core 9.0 Mvc
+
 💎Repository Pattern
+
 💎Onion acrhitecture
+
 💎Cqrs Pattern
+
 💎Mediator Pattern
+
 💎Repository Pattern
+
 💎Unit Of Work Pattern
+
 💎EntityFramwerok Core
+
 💎JWT (Json Web Token)
+
 💎AutoMapper
+
 💎FluentValidation
 
 ## Projeye ilikin bazı görseller
